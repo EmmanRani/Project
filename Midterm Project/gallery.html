@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velasco's Gallery</title>
+    <link rel="stylesheet" href="gallerys.css"/> 
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Velasco.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="brain-master.html">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h2 class="gallery-header">Favorite Movies</h2>
+        <div class="art-exhibit">
+            
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="Images/fav1.jpg" class="art-image" alt="Iron Man 3">
+                <div class="grey"><span class="boldy">Iron Man 3</span><br>Directed by: Shane Black</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="Images/fav2.jpg" class="art-image" alt="Avengers: Endgame">
+                <div class="grey"><span class="boldy">Avengers: Endgame</span><br>Directors: Anthony Russo, Joe Russo</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="images/fav3.jpg" class="art-image" alt="Captain America: Civil War">
+                <div class="grey"><span class="boldy">Captain America: Civil War</span><br>Directed by: Anthony Russo, Joe Russo</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="images/fav4.jpg" class="art-image" alt="Doctor Strange">
+                <div class="grey"><span class="boldy">Doctor Strange</span><br>Directed by: Scott Derrickson</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="images/fav5.jpg" class="art-image" alt="Avengers: Infinity War">
+                <div class="grey"><span class="boldy">Avengers: Infinity War</span><br>Directed by: Anthony Russo, Joe Russo</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+            <div class="artwork">
+                <div class="heart" onclick="toggleLike(this)">
+                    <img src="images/heart.png">
+                </div>
+                <img src="images/fav6.jpg" class="art-image" alt="Spider-Man: No Way Home">
+                <div class="grey"><span class="boldy">Spider-Man: No Way Home</span><br>Directed by: Jon Watts</div>
+                <div class="comments-section">
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button onclick="addComment(this)">Post</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
